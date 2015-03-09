@@ -31,6 +31,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
 
 @RestController
+@RequestMapping("/api/v1")
 public class Controller {
 
 	private Map<Integer, Moderator> moderatorMap;
